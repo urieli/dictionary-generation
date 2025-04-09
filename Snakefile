@@ -73,7 +73,7 @@ rule dic_generation_clean:
     shell:
         """
         perl {MOSES_HOME}/scripts/training/clean-corpus-n.perl {wildcards.prefix}.tok.low \
-            {SRC_LANG} {TRG_LANG} {wildcards.prefix}.clean 1 80 {wildcards.prefix}.lines-retained
+            {SRC_LANG} {TRG_LANG} {wildcards.prefix}.clean 1 300 {wildcards.prefix}.lines-retained
         """
 
 

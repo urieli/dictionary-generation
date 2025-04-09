@@ -1,8 +1,9 @@
 LANG1: "en"
-LANG2: "tpi"
+LANG2: "yi"
 
 TRAIN_PREFIXES:
-    - "bible"
-    - "ted"
+    - "data/stevenson-treasure"
+    - "data/twain-princepauper"
+    - "data/london-callofthewild"
 
-THREADS: 2
+THREADS: 1
