@@ -1,2 +1,4 @@
 .snakemake/
 *.dic
+data/
+.python-version
